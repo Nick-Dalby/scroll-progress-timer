@@ -39,3 +39,10 @@ section {
 section p {
   margin-bottom: 1rem;
 }
+
+@media (max-width: 499px) {
+  section {
+    width: 100%;
+    padding: 10px;
+  }
+}
