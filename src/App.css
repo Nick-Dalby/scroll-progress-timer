@@ -1,0 +1,41 @@
+div.progress-wrapper {
+  position: fixed;
+  top: 0;
+  margin: 1rem 5vw;
+  background-color: transparent;
+  width: 90vw;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+div.progress {
+  background-color: plum;
+  min-width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  outline: 2px solid plum;
+  outline-offset: 2px;
+}
+
+.stats {
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+  background-color: plum;
+  color: rgb(249, 249, 249);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px 8px 10px;
+  line-height: 1;
+  font-family: sans-serif;
+}
+
+section {
+  width: 60ch;
+  margin: 80px auto;
+}
+
+section p {
+  margin-bottom: 1rem;
+}
