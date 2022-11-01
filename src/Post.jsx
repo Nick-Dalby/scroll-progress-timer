@@ -17,7 +17,7 @@ const Post = () => {
       target.current.clientHeight +
       target.current.offsetTop -
       window.innerHeight
-    setPercent(Math.floor((100 * pixels) / difference))
+    setPercent((100 * pixels) / difference)
 
     if (percent >= 100) {
       timerEnd()

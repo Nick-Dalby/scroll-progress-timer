@@ -16,9 +16,7 @@ const calculateTime = (start, end) => {
 
   return (
     <div className='stats'>
-      <div className="percent">{percent >= 100 ? 100 : percent.toLocaleString('en-US', {
-    minimumIntegerDigits: 3
-  })}%</div>
+      <div className="percent">{percent >= 100 ? 100 : Math.floor(percent)}%</div>
       {/* <div className="pixels">{pixels}</div> */}
       <div className="reading-time">Started: {startTime ? startTime.toLocaleTimeString('de-DE') : '00:00:00'}</div>
       <div className="reading-time">Completed: {endTime ? endTime.toLocaleTimeString('de-DE') : '00:00:00' }</div>
