@@ -45,4 +45,8 @@ section p {
     width: 100%;
     padding: 10px;
   }
+
+  .stats {
+    font-size: .8rem;
+  }
 }
